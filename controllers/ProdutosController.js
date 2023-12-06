@@ -1,5 +1,5 @@
 module.exports = class ProdutosController{
     static showProdutos(req, res){
-        res.render('addProdutos')
+        res.render('partials/addProdutos')
     }
 }
